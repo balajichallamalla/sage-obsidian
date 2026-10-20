@@ -1,0 +1,7 @@
+{
+  "name": "sage-obsidian",
+  "version": "0.1.0",
+  "description": "Set up and run an Obsidian second brain kept by Claude: raw captures, a self-maintaining wiki, connector sync (Slack, Jira, Gmail, Drive meeting notes, GitHub PRs), Todoist, weekly synthesis, meeting prep and a command-center dashboard.",
+  "author": {"name": "Balaji Challamalla"},
+  "keywords": ["obsidian", "second-brain", "llm-wiki", "knowledge-base", "productivity"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sage-obsidian",
+  "owner": {"name": "Balaji Challamalla"},
+  "plugins": [
+    {
+      "name": "sage-obsidian",
+      "source": "./",
+      "description": "Obsidian second brain kept by Claude — setup interview, connector sync, Todoist, weekly synthesis, meeting prep, dashboard."
+    }
+  ]
+}
