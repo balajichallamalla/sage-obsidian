@@ -1,0 +1,6 @@
+.obsidian/workspace*.json
+.trash/
+.DS_Store
+__pycache__/
+_system/state/run.lock
+_system/state/dashboard.json

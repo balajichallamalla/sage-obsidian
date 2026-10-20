@@ -1,0 +1,23 @@
+{
+  "files": {
+    "sync": ["_system/workflows/sync.md", "_system/workflows/sync-status.md", "_system/tools/sync_state.py",
+             "_system/tests/test_sync_state.py"],
+    "source:slack": ["_system/sources/slack.md", "_system/workflows/ingest-slack.md"],
+    "source:jira": ["_system/sources/jira.md", "_system/workflows/ingest-jira.md"],
+    "source:gmail": ["_system/sources/gmail.md", "_system/workflows/ingest-email.md"],
+    "source:drive_meetings": ["_system/sources/drive-meetings.md", "_system/workflows/ingest-drive.md"],
+    "source:github_prs": ["_system/sources/github-prs.md", "_system/workflows/ingest-pr.md"],
+    "source:claude_sessions": ["_system/sources/claude-sessions.md", "_system/workflows/ingest-claude-session.md"],
+    "todoist": ["_system/workflows/todo-sync.md", "_system/tools/todo_sync.py", "_system/tests/test_todo_sync.py"],
+    "schedules": ["_system/workflows/schedule.md"],
+    "weekly": ["_system/workflows/weekly.md"],
+    "prep": ["_system/workflows/prep.md", "_system/tools/prep_context.py", "_system/tests/test_prep_context.py"],
+    "dashboard": ["home.md", "_system/dashboard/*", "_system/workflows/dash.md", "_system/tools/dash_snapshot.py",
+                  "_system/tests/test_dash_snapshot.py"]
+  },
+  "seed": ["index.md", "log.md", "inbox.md", "_system/normalize.md"],
+  "dirs": ["raw/meetings", "raw/one-on-ones", "raw/slack", "raw/email", "raw/claude-sessions", "raw/thoughts",
+           "raw/clips", "raw/assets", "wiki/people", "wiki/projects", "wiki/repos", "wiki/tickets", "wiki/prs",
+           "wiki/meetings", "wiki/one-on-ones", "wiki/concepts", "wiki/ideas", "wiki/decisions", "wiki/syntheses",
+           "wiki/weekly", "journal", "_system/state/digests"]
+}

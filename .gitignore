@@ -1,0 +1,4 @@
+scripts/dev/identity.local.json
+dist/
+__pycache__/
+.DS_Store

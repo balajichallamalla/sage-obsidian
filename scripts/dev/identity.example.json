@@ -1,0 +1,42 @@
+{
+  "_comment": "Copy to identity.local.json and fill with the source vault owner's real strings.",
+  "replace": [
+    [
+      "<real cloudId>",
+      "{{sage.sources.jira.cloud_id}}"
+    ],
+    [
+      "<real Jira accountId>",
+      "{{sage.sources.jira.account_id}}"
+    ],
+    [
+      "<real Slack user ID>",
+      "{{sage.sources.slack.user_id}}"
+    ],
+    [
+      "<real email>",
+      "{{sage.owner.email}}"
+    ],
+    [
+      "<First name>'s",
+      "{{sage.owner.first_name}}'s"
+    ],
+    [
+      "<First name>",
+      "{{sage.owner.first_name}}"
+    ]
+  ],
+  "fixtures": [
+    [
+      "<colleague-slug>",
+      "alex-morgan"
+    ],
+    [
+      "<PROJECTKEY>",
+      "PROJ"
+    ]
+  ],
+  "banned": [
+    "<strings that must never appear in the template or rendered vaults>"
+  ]
+}
