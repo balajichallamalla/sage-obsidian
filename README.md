@@ -29,15 +29,27 @@ In Claude Code commands are `/sage-obsidian:<command>`; in Cowork pick the skill
 
 ## Install
 
+> The repo is **private** for now. Ask Balaji to add you as a collaborator first, and make sure
+> you're signed in to GitHub (Claude Code uses your local `git` credentials; Cowork uses your
+> connected GitHub account).
+
 **Claude Code**
 ```
-/plugin marketplace add <org>/sage-obsidian
+/plugin marketplace add balajichallamalla/sage-obsidian
 /plugin install sage-obsidian@sage-obsidian
 ```
+Or in one step: `/plugin install sage-obsidian --marketplace balajichallamalla/sage-obsidian`.
+Update later with `/plugin marketplace update sage-obsidian`.
 
-**Claude Cowork / claude.ai** — Customize → Plugins → **Add marketplace** → `<org>/sage-obsidian`,
-then install *sage-obsidian*. (Or **Upload plugin** with `dist/sage-obsidian.zip` from
-`scripts/package.sh`.)
+**Claude Cowork / claude.ai**
+1. Customize → Plugins → **Add marketplace** → `balajichallamalla/sage-obsidian`
+2. Install **sage-obsidian** from that marketplace.
+
+If adding the private marketplace fails, use **Upload plugin** with `sage-obsidian.zip` instead:
+download it from the repo's Releases page or build it with `scripts/package.sh` (it lands in
+`dist/sage-obsidian.zip`).
+
+**Check it worked:** run `sage-obsidian:help` — it explains what to do next.
 
 ## Set up in 5 minutes
 

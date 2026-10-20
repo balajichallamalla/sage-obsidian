@@ -2,6 +2,7 @@
 
 | Symptom | Fix |
 |---|---|
+| Install fails: "repository not found" / auth error | The repo is private — ask the repo owner for collaborator access; sign in to GitHub (Claude Code: `gh auth login` or git credentials). Or upload `sage-obsidian.zip` instead. |
 | A command says "open your vault folder" | Cowork: choose the vault as the working folder. Claude Code: `cd` into it. |
 | Dashboard shows code blocks | Install Dataview; Settings → Dataview → Enable JavaScript queries; toggle the plugin off/on. |
 | Dashboard looks unstyled or doubled | Close and reopen `home.md`; run `doctor`. |

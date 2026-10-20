@@ -64,7 +64,7 @@ No top-level `bin/` (Cowork refuses it). SKILL.md frontmatter uses only `name`, 
 
 ### 2.1 Install
 
-- Claude Code: `/plugin marketplace add <org>/sage-obsidian` → `/plugin install sage-obsidian@sage-obsidian`.
+- Claude Code: `/plugin marketplace add balajichallamalla/sage-obsidian` → `/plugin install sage-obsidian@sage-obsidian`.
 - Cowork: Customize → Plugins → Add marketplace (same repo), or upload `dist/sage-obsidian.zip`.
 
 ### 2.2 Finding the vault
