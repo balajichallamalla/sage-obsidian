@@ -1,0 +1,4 @@
+{"label": "PM", "description": "Meetings, decisions, stakeholders and email; tickets without PRs.",
+ "modules": {"sync": true, "todoist": true, "schedules": true, "weekly": true, "prep": true, "dashboard": true},
+ "sources": {"slack": {"enabled": true}, "jira": {"enabled": true}, "gmail": {"enabled": true},
+             "drive_meetings": {"enabled": true}, "github_prs": {"enabled": false}, "claude_sessions": {"enabled": false}}}

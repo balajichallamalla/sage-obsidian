@@ -1,0 +1,4 @@
+{"label": "Data / analytics", "description": "Analyses, tickets, PRs to dbt-style repos, Claude research sessions.",
+ "modules": {"sync": true, "todoist": false, "schedules": true, "weekly": true, "prep": true, "dashboard": true},
+ "sources": {"slack": {"enabled": true}, "jira": {"enabled": true}, "gmail": {"enabled": false},
+             "drive_meetings": {"enabled": true}, "github_prs": {"enabled": true}, "claude_sessions": {"enabled": true}}}

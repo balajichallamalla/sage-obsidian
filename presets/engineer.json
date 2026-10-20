@@ -1,0 +1,4 @@
+{"label": "Engineer", "description": "Tickets, PRs and repos front and centre; standups and 1:1s.",
+ "modules": {"sync": true, "todoist": false, "schedules": true, "weekly": true, "prep": true, "dashboard": true},
+ "sources": {"slack": {"enabled": true}, "jira": {"enabled": true}, "gmail": {"enabled": false},
+             "drive_meetings": {"enabled": true}, "github_prs": {"enabled": true}, "claude_sessions": {"enabled": true}}}

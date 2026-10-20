@@ -1,0 +1,4 @@
+{"label": "Eng manager", "description": "1:1s, team decisions, weekly impact for reviews; email and meeting notes on.",
+ "modules": {"sync": true, "todoist": true, "schedules": true, "weekly": true, "prep": true, "dashboard": true},
+ "sources": {"slack": {"enabled": true}, "jira": {"enabled": true}, "gmail": {"enabled": true},
+             "drive_meetings": {"enabled": true}, "github_prs": {"enabled": false}, "claude_sessions": {"enabled": false}}}

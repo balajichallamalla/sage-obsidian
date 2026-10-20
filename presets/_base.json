@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "plugin_version": "0.1.0",
+  "setup_date": "",
+  "preset": "",
+  "owner": {"name": "", "first_name": "", "email": "", "emails": [], "match": [], "timezone": "America/New_York"},
+  "vault": {"name": "second-brain", "path": ""},
+  "modules": {"sync": true, "todoist": false, "schedules": true, "weekly": true, "prep": true, "dashboard": true},
+  "sources": {
+    "slack": {"enabled": true, "user_id": "", "channels": []},
+    "jira": {"enabled": true, "site": "xometry.atlassian.net", "cloud_id": "", "account_id": "", "projects": []},
+    "gmail": {"enabled": true, "exclude": "-to:all_pdt@xometry.com"},
+    "drive_meetings": {"enabled": true, "folder": "Meet Recordings"},
+    "github_prs": {"enabled": true, "org": "xometry", "repos": [], "review_channels": []},
+    "claude_sessions": {"enabled": true}
+  },
+  "sync": {"backfill_start": ""},
+  "todoist": {"project": "Work"},
+  "schedules": {"morning": "30 8 * * 1-5", "end_of_day": "0 16 * * 1-5", "weekly": "0 15 * * 5"},
+  "dashboard": {"hours_target": 40, "stale_hours": 12},
+  "todo_categories": ["project", "follow-up", "review", "ticket", "idea", "growth"]
+}
