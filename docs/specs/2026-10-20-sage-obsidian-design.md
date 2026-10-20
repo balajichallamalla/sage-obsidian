@@ -1,7 +1,7 @@
 ---
 type: spec
 title: sage-obsidian plugin — design
-status: draft
+status: approved
 created: 2026-10-20
 updated: 2026-10-20
 ---
